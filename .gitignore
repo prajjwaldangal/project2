@@ -10,3 +10,4 @@
 .part1.o.cmd
 .part1.ko.cmd
 .part1.mod.o.cmd
+.part1*.*
