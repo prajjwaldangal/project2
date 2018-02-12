@@ -7,7 +7,7 @@ struct task_struct *task;
 int simple_init(void) {
 	printk(KERN_INFO "Loading Module\n");
 	for_each_process(task) {
-		printk("process name: %s, pid: %d, state: %ld\n", task->name, task->pid, task->state);
+		printk("process name: %s, pid: %d, state: %ld\n", task->comm, task->pid, task->state);
 
 	}
 	return 0;
