@@ -687,6 +687,18 @@ deps_/home/oscreader/Documents/adv_os/project2/part1.o := \
     $(wildcard include/config/have/mod/arch/specific.h) \
     $(wildcard include/config/modules/use/elf/rel.h) \
     $(wildcard include/config/modules/use/elf/rela.h) \
+  /usr/src/linux-headers-3.16.0-4-common/include/linux/slab.h \
+    $(wildcard include/config/slab/debug.h) \
+    $(wildcard include/config/failslab.h) \
+    $(wildcard include/config/memcg/kmem.h) \
+    $(wildcard include/config/slob.h) \
+    $(wildcard include/config/slab.h) \
+    $(wildcard include/config/slub.h) \
+    $(wildcard include/config/debug/slab.h) \
+  /usr/src/linux-headers-3.16.0-4-common/include/linux/kmemleak.h \
+    $(wildcard include/config/debug/kmemleak.h) \
+  /usr/src/linux-headers-3.16.0-4-common/include/linux/slab_def.h \
+  /usr/src/linux-headers-3.16.0-4-common/include/linux/reciprocal_div.h \
 
 /home/oscreader/Documents/adv_os/project2/part1.o: $(deps_/home/oscreader/Documents/adv_os/project2/part1.o)
 

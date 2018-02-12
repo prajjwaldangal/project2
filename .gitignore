@@ -4,4 +4,9 @@
 *.mod.o
 *.symvers
 *.order
-.part1*.*
+.part1.mod.c
+.part1.mod.o
+.tmp_versions
+.part1.o.cmd
+.part1.ko.cmd
+.part1.mod.o.cmd
